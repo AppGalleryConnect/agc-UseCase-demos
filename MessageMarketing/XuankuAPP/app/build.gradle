@@ -1,0 +1,62 @@
+plugins {
+    id 'com.android.application'
+    id 'com.huawei.agconnect'
+}
+apply plugin: 'kotlin-android'
+
+agcp {
+    enableAPMS true
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.example.xuankuapp"
+        minSdkVersion 28
+        targetSdkVersion 30
+        versionCode 2
+        versionName "2.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    //配置如下地址
+    implementation 'com.huawei.hms:hianalytics:6.4.1.302'
+    implementation 'com.huawei.agconnect:agconnect-core:1.6.5.300'
+    implementation 'com.huawei.agconnect:agconnect-crash:1.6.1.300'
+    implementation 'com.huawei.agconnect:agconnect-apms:1.5.2.310'
+    implementation 'com.huawei.agconnect:agconnect-remoteconfig:1.6.6.200'
+    implementation 'com.huawei.agconnect:agconnect-function:1.6.6.200'
+    implementation 'com.huawei.agconnect:agconnect-appmessaging:1.6.5.300'
+    implementation 'com.huawei.agconnect:agconnect-applinking:1.6.5.300'
+    implementation 'com.huawei.agconnect:agconnect-auth:1.6.5.300'
+    implementation 'com.huawei.agconnect:agconnect-cloud-database:1.5.2.300'
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'androidx.core:core-ktx:1.5.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
+}

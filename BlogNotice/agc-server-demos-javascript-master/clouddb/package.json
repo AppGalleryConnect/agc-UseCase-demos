@@ -1,0 +1,19 @@
+{
+  "name": "js_adminsdk_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@agconnect/common-server": "^1.2.0",
+    "@agconnect/database-server": "^1.0.5",
+    "@agconnect/function-server": "^1.0.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

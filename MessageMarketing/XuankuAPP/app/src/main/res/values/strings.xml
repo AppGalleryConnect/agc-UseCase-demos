@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">XuankuAPP</string>
+    <string name="eventTitle">Huawei 618 Smart Enjoy a Summer of Huawei Computer Digital Day</string>
+    <string name="event2Title">AITO | Question Boundary M7 Luxury Smart Large Electric SUV</string>
+    <string name="purchase">Purchase</string>
+    <string name="loginTitle">Welcome to AGC usecase</string>
+    <string name="countryCode">code</string>
+    <string name="phoneNumber">phoneNumber</string>
+    <string name="verifyCode">verifyCode</string>
+    <string name="obtainVerifyCode">Obtain</string>
+    <string name="phoneLogin">phoneLogin</string>
+    <string name="greeting">Hello, proletarian comrade.</string>
+    <string name="signOut">signOut</string>
+    <string name="makeCrash">makeCrash</string>
+    <string name="makeException">makeException</string>
+    <string name="customReport">customReport</string>
+    <string name="getOnlineConfig">getOnlineConfig</string>
+    <string name="cloudFunction">cloudFunction</string>
+    <string name="sendNetworkRequest">sendNetworkRequest</string>
+</resources>

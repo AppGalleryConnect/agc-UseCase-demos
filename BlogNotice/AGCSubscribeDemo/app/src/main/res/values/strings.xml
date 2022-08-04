@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AGCSubscribeDemo</string>
+    <string name="title_activity_login">AGCSubscribeDemo</string>
+    <string name="prompt_email">phone</string>
+    <string name="prompt_password">password</string>
+    <string name="prompt_code">code</string>
+    <string name="action_sign_in">phone password login</string>
+    <string name="action_sign_in_register">code registration login</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="send_code">get code</string>
+    <string name="follow">follow</string>
+    <string name="followed">followed</string>
+    <string name="follow_ok">follow success</string>
+    <string name="add">add article</string>
+    <string name="update_remind">update reminder</string>
+
+</resources>
